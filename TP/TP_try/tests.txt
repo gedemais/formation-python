@@ -1,0 +1,20 @@
+Tester que la methode emergency function ejecte le bon nombre de soldats, et
+qu'elle ne fasse rien en cas de mauvaise utilisation.
+
+Tester que la methode shoot enleve le bon nombre de loaded_bullets, ainsi que de
+stock_bullets en l'appelant avec les valeurs suivantes :
+
+12
+20
+
+Puis, tester que la methode shoot recharge correctement lorsqu'elle utilise la
+derniere loaded_bullets en l'appelant avec la valeur 28.
+
+Tester que les methodes accelerate et decelerate fonctionnent correctement, en
+ajoutant ou en enlevant 10 km/h a la vitesse de l'appareil.
+
+Tester que la methode hit enleve bien le nombre de soldats perdus a l'equipage,
+puis tester qu'elle change un healthy_soldier (-1) en wounded_solider (+1)
+
+Tester que la methode land diminue la vitesse de l'appareil a 0, et qu'elle soigne
+un wounded_soldier (-1) en healthy_soldier (+1).

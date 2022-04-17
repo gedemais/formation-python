@@ -1,0 +1,42 @@
+Introduction SQL
+UML
+Json, XML, yaml
+Intro services webs
+Lignes de commande linux
+Presentation des metier de test
+Agile
+TDD
+Gestion des exigences
+Expression des besoins fonctionnels
+Certification ISTQB
+-------------------------------------
+
+Presentations
+Programme
+
+Installation :
+	1. Creer un compte github
+	2. Renseigner l'identifiant github dans le chat
+	2. Setup un terminal + un editeur de texte
+	3. Clone le repo de formation
+
+Compte de formation :
+gedemais-formation
+2...........]
+
+Intro git (Terminal si linux / vm dispo, sinon vscode avec terminal bash)
+
+Introduction a Python (les bases jusqu'a la page 70)
+
+Exercices Python, cours n1 et n2
+
+Introduction aux tests unitaires en Python
+
+Gestion d'un projet de test de A a Z
+
+Strategie de tests
+1. Lister les exigences
+2. Design des tests unitaires qui resultent des exigences
+3. Implementation les tests unitaires
+4. Corriger les dysfonctionnements reveles par les tests (y compris dans les tests eux-memes)
+5. Ajouter d'autres tests si necessaire
