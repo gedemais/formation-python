@@ -1,3 +1,6 @@
+import math
+from easygui import *
+
 #print('Entrer un nombre relatif:')
 #nb=float(input())
 #if nb>=0:
@@ -25,10 +28,60 @@
 #else:
 #    print('Tout va bien')
 
-a=0
-b=10
-while(a<b):
-    a+=1
-while b!=0:
-    b-=1
-    if b%2==1: print(b)
+#a=0
+#b=10
+#while(a<b):
+#    a+=1
+#while b!=0:
+#    b-=1
+#    if b%2==1: print(b)
+
+#n = int(input('Entrez un entier entre 1 et 10 : '))
+#while not(1 <= n <= 10) :
+#    n = int(input('Entrez un entier entre 1 et 10, S.V.P. : '))
+
+#ch='Hello world!'
+#l= [1,2,4,5,8,9,15,51,35,96]
+#for lettre in ch:
+#    print(lettre)
+#for chiffre in l:
+#    print(chiffre)
+
+#for c in range(0,15,3):
+#    print(c)
+
+#for c in range(11):
+#    if c == 5:
+#        break
+#    print(c)
+
+#for c in range(11):
+#    if c == 5:
+#        continue
+#    print(c)
+
+#for c in range (-3,3):
+#    try:
+#        print(math.sin(c)/c)
+#    except ZeroDivisionError as err:
+#        print('calcul impossible')
+
+i1=integerbox("Entrer votre 1er entier","selection")
+i2=integerbox("Entrer votre 2eme entier","selection")
+i3=integerbox("Entrer votre 3eme entier","selection")
+i4=integerbox("Entrer votre 4eme entier","selection")
+i5=integerbox("Entrer votre 5eme entier","selection")
+li=[i1,i2,i3,i4,i5]
+slt=integerbox("Entrer l'entier à trouver","selection")
+trouve=0
+for i in li:
+    if i==slt:
+        trouve=i
+        break
+
+if trouve==0:
+    msgbox("entier non trouvé")
+else:
+    msgbox("entier trouvé:")
+
+#slt2=integerbox("Entrer l'entier à trouver","selection",0,0)
