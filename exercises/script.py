@@ -7,3 +7,11 @@ vitesse = distance/temps
 print(vitesse)
 #afficher un chiffre après la virgule
 print('vitesse={}'.format(vitesse))
+
+#exercice 2
+a = 10.5
+if a>=0:
+    print(pow(a,0.5))
+else: 
+    print('a est incorrect')
+    
