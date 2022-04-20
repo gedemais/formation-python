@@ -1,5 +1,11 @@
-#2.5 
-n = int(input ("entrez un entier [1 .. 10]: "))
-while not(1 <= n <= 10) :
-    n = int(input ("entrez un entier [1 .. 10], SVP :"))
-print("valeur saisie :", n)
+#2.6
+print("exemple 1")
+for lettre in "bonjour":
+    print(lettre)
+print()
+
+print("exemple 2")
+for element in [1, 2, 3, 4, 5, 6, 7] :
+    print(element)
+  
+
