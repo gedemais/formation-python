@@ -5,16 +5,16 @@ def table(base, debut, fin, inc):
     while x < fin:
         print(x,y)
         x = x + inc
-table (1,3,7,9)
+table(1, 2, 3, 4)
 
 #2
 from math import pow
 from math import pi
 def cube(x):
-    return pow(x,3)
+    return x**3
 def volumeSphere(r):
-    return 4 * pi * ((pow(r,3)) / 3)
-r=float(input('le rayon est '))
+    return 4 * pi * (cube(r) / 3)
+r=float(input('introduire le rayon '))
 print('pour un rayon de') 
 print(r)
 print('le volume est de') 
