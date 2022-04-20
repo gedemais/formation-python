@@ -1,7 +1,7 @@
-temps= 6.892
-distance= 19.7
-vitesse=distance / temps
-print(vitesse)
+#temps= 6.892
+#distance= 19.7
+#vitesse=distance / temps
+#print(vitesse)
 
 
 
@@ -49,8 +49,29 @@ print(vitesse)
     #    print("valeur de b" , b)
   #  b = b- 1 
 
-n = int(input("entrez un entier [1 . . 10] : "))
-while n<0 or n>10 :
-    n = int(input("entrez un entier [1 . . 10], S.V.P. : "))
-    print("valeur saisie :", n)
+#n = int(input("entrez un entiercompris dans [1;10] : "))
+#while not (1<=n<=10) :
+ #   n = int(input("entrez un entier compris dans[1;10] : "))
+  #  print("valeur saisie :", n)
+
+#print("caractère d'une chaine")
+#for lettre in "Hello" :
+  #    print(lettre)
+
+#3) les fonctions
+#1)
+def table(base, debut, fin, inc) :
+    """affiche la table des <base>, de <debut> a <fin>, de <inc> en <inc>."""
+    n = debut
+    while n <= fin : 
+        print(n, 'x', base, '=', n*base)
+        n = n + inc
+table (2, 1, 10, 2)
+
+
+
+
+
+
+
 
