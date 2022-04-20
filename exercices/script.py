@@ -24,8 +24,16 @@ if a<b :
 if a == b:
     print("a est égale à b")
 if a>b :
-    print("a est sité apès b")
+    print("a est situé apès b")
 
+    #2-1
+    print ("entrez deux mots")
+    a = len (input("un premier mot"))
+    b = len(input("un deuxième mot"))
+if a>b :
+    print ("b est le plus petit")
+else :
+    print ("b est plus petit")
 
 
 
