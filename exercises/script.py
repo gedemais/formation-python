@@ -13,3 +13,11 @@ if a>b :
     print ("b est le plus petit")
 else : 
     print ("b est le plus grand")
+
+#QUEST3
+Pseuil = 2.3
+Vseuil = 7,41
+Pression = float(input("valeur pression"))
+Volume = float(input("valeur volume"))
+if (Volume > Vseuil) and (Pression > Pseuil) :
+    print ("arret immédiat")
