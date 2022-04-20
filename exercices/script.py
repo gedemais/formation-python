@@ -30,13 +30,22 @@ pseuil = 2.3
 vseuil = 7.41
 pression = float(input("entrez une pression"))
 volume = float(input("entrez un volume"))
-if pression < pseuil :
+if pression < pseuil and volume < vseuil :
     print("OK")
 else :
-    print("Arrêt immédiat") 
-if volume < vseuil :
-    print ("OK")
-else :
-    print("Arrêt immédiat")
+    print("Arrêt immédiat !") 
 
-    
+
+
+# 4)
+a = 0
+b = 10
+while a < b : 
+    print("valeur de a", a)
+    a = a + 1
+
+while b>0 :
+    if b % 2 != 0 :
+        print("valeur de b" , b)
+    b = b- 1 
+
