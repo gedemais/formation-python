@@ -93,10 +93,19 @@
 
 #cours3
 #1
-def table(base, debut, fin, inc):
-    n= debut
-    while n <= fin:
-        print(base, "x", n, "=", n*base)
-        n= n + inc
+#def table(base, debut, fin, inc):
+#    n= debut
+#    while n <= fin:
+#        print(base, "x", n, "=", n*base)
+#        n= n + inc
 
-table(6,1,10,1)
+#table(6,1,10,1)
+
+#2
+from math import pi
+def cube(n):
+    return n**3
+def volume_sphere(r):
+    return 4 / 3 * (pi) * cube(r)
+r = float(input("entrer la valeur du rayon: "))
+print("le volume de cette sphere vaut", volume_sphere(r))
