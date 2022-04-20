@@ -5,7 +5,7 @@ print ('vitesse={}'.format(vitesse))
 
 
 
-#ex 
+#ex 2 q1
 #f=7.123 flottant
 from math import sqrt
 f = float (input('entrer un nombre flottant'))
@@ -22,6 +22,26 @@ if a>b :
     print("b est le plus petit")
 else :
     print("b est le plus grand")
+
+#version compacte
+print("entrez deux mots")
+a = len(input("un premier mot"))
+b = len(input("un deuxième mot"))
+plus_petit = x if x < y else y
+
+#2.3 sécuriser une enceinte pressurisée
+
+seuil p = 2.3
+seuil v = 7.41
+p = float (input("pression courant " ))
+v = float (input("volume courant "))
+if (p > seuil p) and (c > seuil v) :
+    print("arret immédiat")
+elif p > seuil p :
+    print("augmenter le volume de l'enceinte")
+elif c > seuil v :
+    print("diminuer le volume")
+else print("tout va bien")
 
 
 
