@@ -82,6 +82,16 @@
 #print("fin")
 
 #7
-for i in range (1, 14, 3):
-    print(i)
-print ("fin")
+#for i in range(1, 14, 3):
+    #print(i)
+#print("fin")
+
+#8
+for n in range(1,10):
+    print (n)
+    if n == 5:
+        break
+print("fin")
+
+
+#9
