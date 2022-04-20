@@ -1,12 +1,10 @@
-#3.1
-def table(base, debut, fin, inc) :
-    n = debut
-    base = 2
-    while n <= fin :
-        print(n, 'x', base, '=', n * base )
-        n = n + inc
-table(2, 4, 8, 1)
-    
+from math import pi
+def cube(x) :
+    return x**3
 
+def volumeSphere(r) :
+    return 4* pi * cube(r) / 3
+rayon = float(input("rayon : "))
+print(volumeSphere)
 
 

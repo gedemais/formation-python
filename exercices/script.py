@@ -104,4 +104,13 @@ def table(base, debut, fin, inc) :
         print(n, 'x', base, '=', n * base )
         n = n + inc
 table(2, 4, 8, 1)
-    
+
+#3.2    
+from math import pi
+def cube(x) :
+    return x**3
+
+def volumeSphere(r) :
+    return 4* pi * cube(r) / 3
+rayon = float(input("rayon : "))
+print(volumeSphere)
