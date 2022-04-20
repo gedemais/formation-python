@@ -1,11 +1,9 @@
-#2.6
-print("exemple 1")
-for lettre in "bonjour":
-    print(lettre)
+#2.7
+print(range(5))
+print(range(3, 10))
+print(range(0, 10, 2))
+for i in range(0, 15, 3):
+    print(i)
 print()
-
-print("exemple 2")
-for element in [1, 2, 3, 4, 5, 6, 7] :
-    print(element)
   
 
