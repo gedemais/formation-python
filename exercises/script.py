@@ -67,7 +67,18 @@
 #print("fin")
 
 #5
-n = int(input("Entrez un entier entre 1 et 10 : "))
-while not (1<= n <= 10):
-    n = int(input("Entrez un entier entre 1 et 10 : "))
-print("Valeur saisie = ", n)
+#n = int(input("Entrez un entier entre 1 et 10 : "))
+#while not (1<= n <= 10):
+    #n = int(input("Entrez un entier entre 1 et 10 : "))
+#print("Valeur saisie = ", n)
+
+#6
+#for lettre in "maison":
+    #print(lettre)
+#print("fin")
+
+#for i in range(10):
+    #print(i)
+#print("fin")
+
+#7
