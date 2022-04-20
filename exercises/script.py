@@ -87,11 +87,16 @@
 #print("fin")
 
 #8
-for n in range(1,10):
-    print (n)
-    if n == 5:
-        break
-print("fin")
-
+#for n in range(1, 11):
+    #print (n)
+    #if n == 5:
+        #break
+#print("fin")
 
 #9
+
+for n in range(1, 11):
+    if n == 5:
+        continue
+    print(n)
+print("fin")
