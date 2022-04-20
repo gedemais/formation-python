@@ -1,5 +1,5 @@
 import math
-from easygui import *
+import easygui
 
 #print('Entrer un nombre relatif:')
 #nb=float(input())
@@ -66,13 +66,13 @@ from easygui import *
 #    except ZeroDivisionError as err:
 #        print('calcul impossible')
 
-i1=integerbox("Entrer votre 1er entier","selection")
-i2=integerbox("Entrer votre 2eme entier","selection")
-i3=integerbox("Entrer votre 3eme entier","selection")
-i4=integerbox("Entrer votre 4eme entier","selection")
-i5=integerbox("Entrer votre 5eme entier","selection")
+i1=easygui.integerbox("Entrer votre 1er entier","selection")
+i2=easygui.integerbox("Entrer votre 2eme entier","selection")
+i3=easygui.integerbox("Entrer votre 3eme entier","selection")
+i4=easygui.integerbox("Entrer votre 4eme entier","selection")
+i5=easygui.integerbox("Entrer votre 5eme entier","selection")
 li=[i1,i2,i3,i4,i5]
-slt=integerbox("Entrer l'entier à trouver","selection")
+slt=easygui.integerbox("Entrer l'entier à trouver","selection")
 trouve=0
 for i in li:
     if i==slt:
@@ -80,8 +80,8 @@ for i in li:
         break
 
 if trouve==0:
-    msgbox("entier non trouvé")
+    easygui.msgbox("entier non trouvé")
 else:
-    msgbox("entier trouvé:")
+    easygui.msgbox("entier trouvé:")
 
 #slt2=integerbox("Entrer l'entier à trouver","selection",0,0)
