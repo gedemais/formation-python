@@ -90,3 +90,13 @@
 #        continue
 #    print(i)
 #print("fin")
+
+#cours3
+#1
+def table(base, debut, fin, inc):
+    n= debut
+    while n <= fin:
+        print(base, "x", n, "=", n*base)
+        n= n + inc
+
+table(6,1,10,1)
