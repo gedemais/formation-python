@@ -5,7 +5,8 @@ print(vitesse)
 
 
 
-#ex 2
+# Ex 2 
+# 1)
 #f=10.555
 from math import sqrt
 f = float (input('entrez un nombre flottant'))
@@ -22,6 +23,20 @@ if a>b :
     print("b est le plus petit")
 else :
     print("a est le plus petit")
-    
+
+    #3) 
+
+pseuil = 2.3
+vseuil = 7.41
+pression = float(input("entrez une pression"))
+volume = float(input("entrez un volume"))
+if pression < pseuil :
+    print("OK")
+else :
+    print("Arrêt immédiat") 
+if volume < vseuil :
+    print ("OK")
+else :
+    print("Arrêt immédiat")
 
     
