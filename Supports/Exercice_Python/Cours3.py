@@ -46,4 +46,21 @@ def volMasseEllipsoide(DA_1, DA_2, DA_3, MV):
     VM = (round(Volume, 2), MV)
     print(VM)
     return(VM)
-volMasseEllipsoide(DA_1, DA_2, DA_3, MV)
+
+
+# 5
+
+def somme_tuple(liste:tuple):
+    total = 0
+    for n in liste :
+        total = total + n
+    print(total)
+    return(total)
+
+# 6
+
+tup_a = (1, 10, 3)
+def somme(a, b, c):
+    print(a+b+c)
+    return (a+b+c)
+somme(*tup_a)
