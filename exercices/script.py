@@ -14,6 +14,18 @@ if f >= 0 :
 else: 
     print ("message d'erreur")
 
+#2-1
+a = "Bonjour"
+
+b = "après"
+print ("selon l'ordre lexicographique")
+if a<b 
+    print("a est situé avant b")
+if a == b 
+    print("a est égale à b")
+if a>b 
+    print("a est sité apès b")
+
 
 
 
