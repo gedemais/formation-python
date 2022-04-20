@@ -58,8 +58,17 @@
 #print("fin")
 
 #5
-n=int(input("entrer un entier compris dans [1;10]: "))
-while not (1<=n<=10):
-    n=int(input("entrer un entier compris dans [1;10]: "))
-print("valeur saisie", n)
+#n=int(input("entrer un entier compris dans [1;10]: "))
+#while not (1<=n<=10):
+#    n=int(input("entrer un entier compris dans [1;10]: "))
+#print("valeur saisie", n)
+
+#6
+#for lettre in "maison":
+#    print(lettre)
+#print("fin")
+
+#for i in range(10):
+#    print(i)
+#print("fin")
 
