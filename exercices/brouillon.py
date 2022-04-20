@@ -1,9 +1,8 @@
-#2.7
-print(range(5))
-print(range(3, 10))
-print(range(0, 10, 2))
-for i in range(0, 15, 3):
-    print(i)
-print()
-  
+#2.8
+liste = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
+for element in liste :
+    if element == "5":
+        break
+    print (element)
+    
 
