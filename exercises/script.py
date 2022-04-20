@@ -68,7 +68,7 @@
 
 #5
 #n = int(input("Entrez un entier entre 1 et 10 : "))
-#while not (1<= n <= 10):
+#while not (1<=n<= 10):
     #n = int(input("Entrez un entier entre 1 et 10 : "))
 #print("Valeur saisie = ", n)
 
@@ -95,8 +95,23 @@
 
 #9
 
-for n in range(1, 11):
-    if n == 5:
-        continue
-    print(n)
-print("fin")
+#for n in range(1, 11):
+    #if n == 5:
+        #continue
+    #print(n)
+#print("fin")
+
+
+# Cours 3
+
+#1
+def table(base, debut, fin, inc):
+    n = debut
+    while n <= fin:
+        print(n, "x", base, "=", n*base)
+        n = n + inc
+        
+table(4, 1, 6, 1) 
+
+#2
+
