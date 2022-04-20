@@ -63,6 +63,21 @@ for i in [0, 1, 2, 3]:
     print("i a pour valeur", i)
 
 
+#3 Les fonctions
+
+#def table(base , début , fin , inc)
+    #Affichez la table
+
+def table(base, debut, fin, inc):
+    """Affiche la table des <base>, de <debut> a <fin>, de <inc> en <inc>."""
+    n = debut
+    while n <= fin:
+        print(n, 'x', base, '=', n*base)
+        n = n + inc
+
+  
+
+
 
 
 
