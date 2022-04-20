@@ -7,8 +7,8 @@ else :
 
 #QUEST2
 print ("entrez deux mots")
-a = input("un premier mot")
-b = input("un deuxieme mot")
+a = len(input("un premier mot"))
+b = len(input("un deuxieme mot"))
 if a>b :
     print ("b est le plus petit")
 else : 
