@@ -105,13 +105,20 @@
 # Cours 3
 
 #1
-def table(base, debut, fin, inc):
-    n = debut
-    while n <= fin:
-        print(n, "x", base, "=", n*base)
-        n = n + inc
+#def table(base, debut, fin, inc):
+    #n = debut
+    #while n <= fin:
+        #print(n, "x", base, "=", n*base)
+        #n = n + inc
         
-table(4, 1, 6, 1) 
+#table(4, 1, 6, 1) 
 
 #2
 
+from math import pi
+def cube(x):
+    return x**3
+def volume_sphere(r):
+    return 4/3 * pi * cube(r)
+r = float(input("Rayon : "))
+print("Le volume de la sphere de ", r, "est de ", volume_sphere(r))
