@@ -42,14 +42,14 @@ while a<b :
     print("a a pour valeur",a)
     a = a + 1
 
-while b>0 :
-    if b % 2 != 0 :
-        print("b a pour valeur", b)        
-b = b - 1
+#while b>0 :
+    #if b % 2 != 0 :
+        #print("b pour valeur", b)        
+        #b = b - 1
 
 #exercice 5
 n = int(input("Entrez un entier [1 .. 10] : "))
-while not(1 <= n <= 10):
+while n<0 or n>10 :
     n = int(input("Entrez un entier [1 .. 10], : "))
     print("\nValeur saisie :", n)
 
