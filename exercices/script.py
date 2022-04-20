@@ -53,6 +53,15 @@ while n<0 or n>10 :
     n = int(input("Entrez un entier [1 .. 10], : "))
     print("\nValeur saisie :", n)
 
+#exercice6
+
+print(" Exemple 1 ".center(40, '-'))
+for lettre in "Bonjour":
+    print(lettre)
+    print()
+   
+
+
 
 
 
