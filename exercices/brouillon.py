@@ -1,8 +1,12 @@
-#2.8
-liste = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]
-for element in liste :
-    if element == "5":
-        continue
-    print (element)
+#3.1
+def table(base, debut, fin, inc) :
+    n = debut
+    base = 2
+    while n <= fin :
+        print(n, 'x', base, '=', n * base )
+        n = n + inc
+table(2, 4, 8, 1)
+    
+
 
 
