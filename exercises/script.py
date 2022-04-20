@@ -50,11 +50,16 @@
 #    a = a + 1
 #print("fin")
 
-b=10
-while b !=0 :
-    b= b-1
-    if b%2 ==1:
-        print("b = ", b)
-print("fin")
+#b=10
+#while b !=0 :
+#    b= b-1
+#    if b%2 ==1:
+#        print("b = ", b)
+#print("fin")
 
+#5
+n=int(input("entrer un entier compris dans [1;10]: "))
+while not (1<=n<=10):
+    n=int(input("entrer un entier compris dans [1;10]: "))
+print("valeur saisie", n)
 
