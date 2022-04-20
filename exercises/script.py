@@ -29,16 +29,32 @@
 #    print("le plus petit mot est b")
 
 #3
-p_seuil=2.3
-v_seuil=7.41
-p_courante = float(input("saisir la pression courante = "))
-v_courant= float(input("entrer le volume courant = "))
-if (p_courante > p_seuil) and (v_courant > v_seuil):
-    print("arrêt immédiat")
-elif p_courante > p_seuil:
-    print("augmenter le volume de l'enveinte")
-elif v_courant > v_seuil:
-    print("diminuer le volume de l'enceinte")
-else:
-    print("tout va bien")
-    
+#p_seuil=2.3
+#v_seuil=7.41
+#p_courante = float(input("saisir la pression courante = "))
+#v_courant= float(input("entrer le volume courant = "))
+#if (p_courante > p_seuil) and (v_courant > v_seuil):
+#    print("arrêt immédiat")
+#elif p_courante > p_seuil:
+#    print("augmenter le volume de l'enveinte")
+#elif v_courant > v_seuil:
+#    print("diminuer le volume de l'enceinte")
+#else:
+#    print("tout va bien")
+
+#4
+#a = 0
+#b = 10
+#while a < b :
+#    print("a a pour valeur", a)
+#    a = a + 1
+#print("fin")
+
+b=10
+while b !=0 :
+    b= b-1
+    if b%2 ==1:
+        print("b = ", b)
+print("fin")
+
+
