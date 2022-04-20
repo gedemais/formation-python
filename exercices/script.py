@@ -59,7 +59,10 @@ print(" Exemple 1 ".center(40, '-'))
 for lettre in "Bonjour":
     print(lettre)
     print()
-   
+for i in [0, 1, 2, 3]:
+    print("i a pour valeur", i)
+
+
 
 
 
