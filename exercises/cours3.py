@@ -8,7 +8,6 @@ def table(base, debut, fin, inc):
 table(1, 2, 3, 4)
 
 #2
-from math import pow
 from math import pi
 def cube(x):
     return x**3
@@ -21,5 +20,12 @@ print('le volume est de')
 print(volumeSphere(r))
 
 #3
+def cube(x):
+    return x**3
+def mafonction(x):
+    return 2 * cube(x) + x - 5
+def tabuler(fonction, borneinf, bornesup, nbpas):
+    while borneinf < bornesup:
+    print(mafonction(x))
 
 
