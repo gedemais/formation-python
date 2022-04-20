@@ -65,3 +65,9 @@
     #if b%2 == 1:
         #print("b =", b)
 #print("fin")
+
+#5
+n = int(input("Entrez un entier entre 1 et 10 : "))
+while not (1<= n <= 10):
+    n = int(input("Entrez un entier entre 1 et 10 : "))
+print("Valeur saisie = ", n)
