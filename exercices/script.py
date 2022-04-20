@@ -19,11 +19,11 @@ a = "Bonjour"
 
 b = "après"
 print ("selon l'ordre lexicographique")
-if a<b 
+if a<b :
     print("a est situé avant b")
-if a == b 
+if a == b:
     print("a est égale à b")
-if a>b 
+if a>b :
     print("a est sité apès b")
 
 
