@@ -13,4 +13,15 @@ if f >= 0 :
     print (sqrt (f))
 else:
     print("message d'erreur")
+
+# 2) comparer deux mots
+print("entrez deux mots")
+a = len(input("un premier mot"))
+b = len(input("un deuxieme mot"))
+if a>b :
+    print("b est le plus petit")
+else :
+    print("a est le plus petit")
+    
+
     
