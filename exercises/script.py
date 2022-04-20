@@ -1,17 +1,44 @@
 # affecter les variables
-temps = 6.892
-distance = 19.7
+#temps = 6.892
+#distance = 19.7
 # définir la vitesse 
-vitesse = distance/temps
+#vitesse = distance/temps
 # afficher résultat de la vitesse
-print(vitesse)
+#print(vitesse)
 #afficher un chiffre après la virgule
-print('vitesse={}'.format(vitesse))
+#print('vitesse={}'.format(vitesse))
 
 #exercice 2
-a = 10.5
-if a>=0:
-    print(pow(a,0.5))
-else: 
-    print('a est incorrect')
+#1
+#from math import sqrt
+#f = float (input("entrer un nombre flottant"))
+#if f >= 0:
+#    print(sqrt(f))
+#else:
+#    print("erreur")
+
+
+#2
+#print("Entrer deux mots")
+#a = len(input("a = "))
+#b = len(input("b = "))
+
+#if a < b:
+#    print("le plus petit mot est a")
+#else:
+#    print("le plus petit mot est b")
+
+#3
+p_seuil=2.3
+v_seuil=7.41
+p_courante = float(input("saisir la pression courante = "))
+v_courant= float(input("entrer le volume courant = "))
+if (p_courante > p_seuil) and (v_courant > v_seuil):
+    print("arrêt immédiat")
+elif p_courante > p_seuil:
+    print("augmenter le volume de l'enveinte")
+elif v_courant > v_seuil:
+    print("diminuer le volume de l'enceinte")
+else:
+    print("tout va bien")
     
