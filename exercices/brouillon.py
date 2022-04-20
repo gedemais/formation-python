@@ -1,12 +1,10 @@
-seuil_p = 2.3
-seuil_v = 7.41
-p = float (input("pression courant " ))
-v = float (input("volume courant "))
-if (p > seuil_p) and (c > seuil_v) :
-    print("arret immédiat")
-elif p > seuil_p :
-    print("augmenter le volume de l'enceinte")
-elif v > seuil_v :
-    print("diminuer le volume")
-else : 
-    print("tout va bien")
+a = 0
+b = 10
+while a < b :
+    print("valeur de a", a)
+    a = a + 1
+
+while b > 0 :
+    if b % 2 == 0 :
+        print("valeur de b", b)
+        b = b - 1
