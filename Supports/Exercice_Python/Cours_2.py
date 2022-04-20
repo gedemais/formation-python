@@ -103,6 +103,3 @@ for n in range(1, 10):
     if n != 5:
         continue
     print(n)
-
-# 10
-
