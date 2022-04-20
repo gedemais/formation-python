@@ -35,6 +35,16 @@ if a>b :
 else :
     print ("b est plus petit")
 
+#3
+a = 5
+b = 10
+while a<b :
+    print("a a pour valeur",b)
+    a = a + 1
+
+#while b>0 :
+    #print("b a pour valeur", b)        
+
 
 
 
