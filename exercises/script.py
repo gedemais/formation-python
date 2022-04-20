@@ -53,7 +53,7 @@
 #b=10
 #while b !=0 :
 #    b= b-1
-#    if b%2 ==1:
+#    if b%2 ==1: ou if b%2 !=0:
 #        print("b = ", b)
 #print("fin")
 
@@ -70,5 +70,17 @@
 
 #for i in range(10):
 #    print(i)
+#print("fin")
+
+#7
+#for i in range (1,14,3):
+#    print(i)
+#print("fin")
+
+#8
+#for i in range (1,11):
+#    print(i)
+#    if i == 5:
+#        break
 #print("fin")
 
