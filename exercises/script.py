@@ -37,16 +37,31 @@
 
 
 #3
-p_seuil = 2.3
-v_seuil = 7.41
-print("Pression seuil :", p_seuil, "Volume seuil :", v_seuil)
-p_courante = float(input("Saisir la pression courante = "))
-v_courant = float(input("Saisir le volume courant = "))
-if (p_courante > p_seuil) and (v_courant > v_seuil):
-    print("Arret immediat")
-elif p_courante > p_seuil:
-    print("Augmenter le volume de l'enceinte") 
-elif v_courant > v_seuil:
-    print("Diminuer le volume de l'enceinte") 
-else:
-    print("Tout va bien !") 
+#p_seuil = 2.3
+#v_seuil = 7.41
+#print("Pression seuil :", p_seuil, "Volume seuil :", v_seuil)
+#p_courante = float(input("Saisir la pression courante = "))
+#v_courant = float(input("Saisir le volume courant = "))
+#if (p_courante > p_seuil) and (v_courant > v_seuil):
+    #print("Arret immediat")
+#elif p_courante > p_seuil:
+    #print("Augmenter le volume de l'enceinte") 
+#elif v_courant > v_seuil:
+    #print("Diminuer le volume de l'enceinte") 
+#else:
+    #print("Tout va bien !") 
+
+#4
+#a = 0
+#b = 10
+
+#while a < b:
+    #print("a =", a)
+    #a = a + 1
+#print("fin)")
+
+#while b != 0:
+    #b = b - 1
+    #if b%2 == 1:
+        #print("b =", b)
+#print("fin")
