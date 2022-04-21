@@ -36,7 +36,7 @@
 #if (p_courante > p_seuil) and (v_courant > v_seuil):
 #    print("arrêt immédiat")
 #elif p_courante > p_seuil:
-#    print("augmenter le volume de l'enveinte")
+#    print("augmenter le volume de l'enceinte")
 #elif v_courant > v_seuil:
 #    print("diminuer le volume de l'enceinte")
 #else:
@@ -102,10 +102,40 @@
 #table(6,1,10,1)
 
 #2
-from math import pi
-def cube(n):
-    return n**3
-def volume_sphere(r):
-    return 4 / 3 * (pi) * cube(r)
-r = float(input("entrer la valeur du rayon: "))
-print("le volume de cette sphere vaut", volume_sphere(r))
+#from math import pi
+#def cube(n):
+#    return n**3
+#def volume_sphere(r):
+#    return 4 / 3 * pi * cube(r)
+#r = float(input("entrer la valeur du rayon: "))
+#print("le volume de cette sphere vaut", volume_sphere(r))
+
+#3
+#def cube(x):
+#    return x**3
+
+#def fonction(x) :
+#    return 2 * cube(x) + x - 5
+
+#def tabuler(fonction, borneInf, borneSup, nbPas):
+#    for x in range (borneInf, borneSup, nbPas):
+#        print(x)
+#        print(fonction(x))
+
+#borneInf = int(input("entrer une borne inferieure: "))
+#borneSup = int(input("entrer une borne superieure: "))
+#nbPas = int(input("entrer un nombre de pas: "))
+
+
+#while nbPas <= 0 or borneInf >= borneSup:
+#    print("erreur de paramètres")
+#    borneInf = int(input("entrer une borne inferieure: "))
+#    borneSup = int(input("entrer une borne superieure: "))
+#    nbPas = int(input("entrer un nombre de pas: "))
+
+#tabuler(fonction,borneInf,borneSup,nbPas)
+#print("fin")
+
+
+
+
