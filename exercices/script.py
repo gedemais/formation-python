@@ -128,13 +128,13 @@ def mafonction(x) :
 def tabuler(mafonction, borneinf, bornesup, nbpas) :
     for x in range(borneinf, bornesup, nbpas):
         print(x)
-        print(f(x))
+        print(mafonction(x))
 
 borneinf = int(input('saisir borneinf '))
 bornesup = int(input('saisir bornesup '))
 nbpas = int(input('saisir nbpas '))
 
-while borneinf >= bornesup or nbpas >=0 :
+while borneinf >= bornesup or nbpas <=0 :
         print('la fonction est ')
-tabuler(mafonction, borneinf, bornesup, 1)
+tabuler(mafonction, borneinf, bornesup, nbpas)
 
