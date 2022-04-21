@@ -5,7 +5,7 @@ print ('vitesse{}' .format(vitesse))
 
 
 
-import math.sqrt
+from math import sqrt
 
 
 
