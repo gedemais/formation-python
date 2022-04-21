@@ -60,6 +60,7 @@
 
 #3) les fonctions
 #1)table de multiplication
+
 #def table(base, debut, fin, inc) :
  #   """affiche la table des <base>, de <debut> a <fin>, de <inc> en <inc>."""
   #  n = debut
@@ -86,7 +87,26 @@ def volumesphere(rayon):
 r = int(input("saisir un nombre :"))
 print("volume de la sphere est", volumesphere(r))
 
+#3) fonction tabuler avec quatre paramètres
 
+def cube(x):
+    return x ** 3
+      
+
+def f(x):
+    return 2 * cube(x) + x - 5
+
+
+def tabuler(function, borne_inferieure, borne_superieure, nb_pas):
+    if nb_pas <= 0 or borne_inferieure >= borne_superieure:
+        print("erreur in parametres")
+        exit()
+
+borne_superieure = int(input("entrez une borne superieure"))
+borne_inferieure = int(input("entrez une borne inferieure"))
+
+
+tabuler(f, borne_inferieure, borne_superieure, 1)
 
 
 
