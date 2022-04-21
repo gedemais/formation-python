@@ -1,7 +1,4 @@
-a = 0
-b = 0
-while a < b :
-    print("a a pour valeur", a)
-    a = a + 1
-
-
+a = 5
+b = 6
+c = a + b
+print(c)
