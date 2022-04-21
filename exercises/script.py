@@ -147,7 +147,7 @@
 #tabuler(fonction, borneInf, borneSup, nbPas)
 
 #4
-from math import pi
+#from math import pi
 
 #def v_ellipsoide(a, b ,c):
     #return 4/3 * pi * a * b * c
