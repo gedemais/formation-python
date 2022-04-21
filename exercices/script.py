@@ -33,7 +33,7 @@ else:
     print("Nombre négatif ! ")  
 """""
 #2 Saisir deux mots et les comparer pour trouver le plus petit (ordre lexicographique), afficher le résultat
-"""""
+
 mot1=input("Entrez le premier mot : ")
 mot2=input("Entrez le deuxième mot : ")
 if mot1>mot2:
@@ -42,7 +42,7 @@ else:
     print("Le mot le plus petit est \t",mot1)
 """""
 #refaire en utilisant res = a if cdt else b
-"""""
+
 mot1=input("Entrez le premier mot : ")
 mot2=input("Entrez le deuxième mot : ")
 resultat= mot1 if mot1<mot2 else mot2
@@ -147,6 +147,7 @@ for i in range (-3,3):
 #Dans une boucle for, parcourir la liste. Si l'entier saisi appartient à la liste, le sauver
 #et interrompre la boucle. Si la boucle est terminée, utiliser else pour afficher un message
 #l'annonçant.
+"""""
 from easygui import * #je n'arrive pas à installer le module sur ma machine
 
 text="Entrez un entier"
@@ -160,3 +161,4 @@ for liste in range:
        print("Le nombre existe dans la liste")
        break
 msg=msgbox("Liste terminée",title)
+"""""
