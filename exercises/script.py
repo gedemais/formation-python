@@ -138,7 +138,7 @@
 #borneSup = int(input("Entrez une borneSup : "))
 #nbPas = int(input("Entrez un nombre de pas : "))
 
-#while nbPas <= 0 or borneInf >= borneSup:
+#while nbPas > 0 or borneInf <= borneSup:
     ##print("Erreur")
     #borneInf = int(input("Entrez une borneInf : "))
     #borneSup = int(input("Entrez une borneSup : "))
@@ -147,3 +147,26 @@
 #tabuler(fonction, borneInf, borneSup, nbPas)
 
 #4
+from math import pi
+
+#def v_ellipsoide(a, b ,c):
+    #return 4/3 * pi * a * b * c
+
+#a = float(input("a = "))
+#b = float(input("b = "))
+#c = float(input("c = "))
+
+#print("Le volume est de ", v_ellipsoide(a, b , c), "m^3.")
+
+#volume = v_ellipsoide(a, b, c)
+
+#def m_ellipsoide(rho):
+    #return volume * rho
+
+#rho = float(input("rho = "))
+
+#print("La masse est de ", m_ellipsoide(rho), "kg/m^3.")
+
+#m_ellipsoide(rho)
+
+
