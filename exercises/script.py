@@ -114,11 +114,36 @@
 #table(4, 1, 6, 1) 
 
 #2
+#from math import pi
+#def cube(x):
+    #return x**3
+#def volume_sphere(r):
+    #return 4/3 * pi * cube(r)
+#r = float(input("Rayon : "))
+#print("Le volume de la sphere de ", r, "est de ", volume_sphere(r))
 
-from math import pi
-def cube(x):
-    return x**3
-def volume_sphere(r):
-    return 4/3 * pi * cube(r)
-r = float(input("Rayon : "))
-print("Le volume de la sphere de ", r, "est de ", volume_sphere(r))
+#3
+#def cube(x):
+    #return x ** 3
+
+#def fonction(x):
+    #return 2 * cube(x)+ x - 5
+
+#def tabuler(fonction, borneInf, borneSup, nbPas):
+    #for x in range(borneInf, borneSup, nbPas):
+        #print(x)
+        #print(fonction(x))
+
+#borneInf = int(input("Entrez une borneInf : "))
+#borneSup = int(input("Entrez une borneSup : "))
+#nbPas = int(input("Entrez un nombre de pas : "))
+
+#while nbPas <= 0 or borneInf >= borneSup:
+    ##print("Erreur")
+    #borneInf = int(input("Entrez une borneInf : "))
+    #borneSup = int(input("Entrez une borneSup : "))
+    #nbPas = int(input("Entrez un nombre de pas : "))
+
+#tabuler(fonction, borneInf, borneSup, nbPas)
+
+#4
