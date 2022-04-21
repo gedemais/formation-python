@@ -71,21 +71,21 @@
 
 #2) calcule de volume d'une sphère 
 
-def cube(x) : 
-  """fonction calculant le cube d'un nombre"""
-  return x ** 3
-x = int(input("entrez un nombre :"))
-print("le cube de", x, "est :", cube(x))
+#def cube(x) : 
+ # """fonction calculant le cube d'un nombre"""
+  #return x ** 3
+#x = int(input("entrez un nombre :"))
+#print("le cube de", x, "est :", cube(x))
 
-from math import pi
+#from math import pi
 
-def volumesphere(rayon):
-    x == r
-    volume = 3 / 4 * pi * cube(rayon)
-    """fonction permettant de calculer le volume d'une sphere avec le rayon r"""
-    return (volume)
-r = int(input("saisir un nombre :"))
-print("volume de la sphere est", volumesphere(r))
+#def volumesphere(rayon):
+ #   x == r
+  #  volume = 4 / 3 * pi * cube(rayon)
+   # """fonction permettant de calculer le volume d'une sphere avec le rayon r"""
+    #return (volume)
+#r = int(input("saisir un nombre :"))
+#print("volume de la sphere est", volumesphere(r))
 
 #3) fonction tabuler avec quatre paramètres
 
@@ -94,22 +94,58 @@ def cube(x):
       
 
 def f(x):
-    return 2 * cube(x) + x - 5
+   return 2 * cube(x) + x - 5
 
 
 def tabuler(function, borne_inferieure, borne_superieure, nb_pas):
-    if nb_pas <= 0 or borne_inferieure >= borne_superieure:
+    while nb_pas <= 0 or borne_inferieure >= borne_superieure :
         print("erreur in parametres")
-        exit()
-
 borne_superieure = int(input("entrez une borne superieure"))
 borne_inferieure = int(input("entrez une borne inferieure"))
+nb_pas = int(input("quelle est le nb de pas "))
+
+tabuler(f, borne_inferieure, borne_superieure, nb_pas)
 
 
-tabuler(f, borne_inferieure, borne_superieure, 1)
+#4) 
+#from math import pi
+
+#def volumeEllipsoide(a, b, c, rho):
+ #   return ((4/3) * pi * a * b *c, volumeEllipsoide * rho)
+#(volume,masse) = volumeEllipsoide(1,2,3,3)
 
 
 
+# Ex 4)
+#1) la liste = [17, 38, 10, 25, 72]
 
+nombres = [17, 38, 10, 25, 72]
+print("Afficher la liste initiale")
+print (nombres)
 
+print("Tri")
+nombres.sort()
+print(nombres)
+
+print("Ajouter un element")
+nombres.append(12)
+print(nombres)
+
+print("Retournement")
+nombres.reverse()
+print(nombres)
+
+print("Indice d'un element")
+print(nombres.index(17))
+
+print("Retrait d'un element")
+nombres.remove(38)
+print(nombres)
+
+print("Indicage")
+print("nombres[1:3] =", nombres[1:3])
+print("nombres[:2] =", nombres[:2])
+print("nombres[2:] =", nombres[2:])
+print("nombres[:] =", nombres[:])
+print("nombres[-1] =", nombres[-1])
 
